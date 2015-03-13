@@ -1,0 +1,47 @@
+Estilo
+	Colores
+	Íconos
+	Imágenes
+	Tipografía
+
+Componentes
+	Barra superior
+	Controles [botón, switch, slider]
+	Formulario
+	Fecha <<<<<< FALTA
+	Grilla
+	Listado
+	Menú desplegable
+	Menú de pestañas
+	Microalerta [snackbar]
+	Progreso <<<<<< FALTA
+
+Patrones [poner qué componentes se usa para cada solución]
+	Búsqueda
+	Cámara <<<<<< FALTA
+	Diálogos [alertas, pantallas]
+	Detalle de entrada
+	Mapa
+	Menú lateral
+	Notificaciones
+	Reproducción multimedia [audio, video, galeria fotos] <<<<<< FALTA
+	Seleccionar [hold, y usar el área más grande posible] <<<<<< FALTA
+
+Interacción
+	Acerca de
+	Animación [continuidad]
+	Circuitos combinables [a una entrada llego desde su listado o desde su mención]
+	Compartir [incluír mensajes]
+	Favoritos [guardar lo que hay que anotar]
+	Mensajes [breves y directos, no ambiguos]
+	Opciones
+	Reacción [feedback]
+	Registro y login
+	Splash
+
+Descargas
+	Ejemplos de flujos
+	Íconos
+	Pantallas
+
+Glosario
