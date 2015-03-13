@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="es" class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html lang="es" class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="es"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guías y herramientas para diseñar aplicaciones móviles del Gobierno de la Ciudad de Buenos Aires.">
+  <meta name="author" content="Gobierno de la Ciudad de Buenos Aires">
+  <title>Aplicaciones Móviles > Componentes</title>
+  <link rel="shortcut icon" href="bastrap3/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="bastrap3/favicon-mobile.png">
+  <link rel="stylesheet" href="bastrap3/bootstrap.min.css">
+  <link rel="stylesheet" href="bastrap3/bastrap.css">
+  <link rel="stylesheet" href="docs/docs.css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body role="document" data-spy="scroll" data-target="#affix-nav" class="bg-white-1">
+
+<a id="barra" class="anchor anchor-first"></a>
+
+<header class="navbar navbar-primary navbar-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <a class="navbar-brand bac-header" href="index.html"></a>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <h5 class="sub-brand">En todo estás vos</h5>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="jumbotron jumbotron-small jumbotron-misc jumbotron-main">
+
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+            <span class="sr-only">Cambiar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Aplicaciones Móviles</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="estilos.html">Estilos</a></li>
+            <li class="active"><a href="componentes.html">Componentes</a></li>
+            <li><a href="patrones.html">Patrones</a></li>
+            <li><a href="interaccion.html">Interacción</a></li>
+            <li><a href="descargas.html">Descargas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Componentes</h1>
+        <p class="lead">Elementos para presentar datos y funciones.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="main-container" role="main">
+<div class="container">
+<div class="row">
+
+<nav class="sidebar col-md-2" role="sidebar">
+  <ul class="nav sidenav affix-top" id="affix-nav" data-spy="affix" data-offset-top="286">
+      <li><h4><a href="#barra">Componentes</a></h4>
+        <ul class="nav">
+          <li><a href="#barra">Barra superior</a></li>
+          <li><a href="#controles">Controles</a></li>
+          <li><a href="#formulario">Formulario</a></li>
+<!--           <li><a href="#fecha">Fecha</a></li> -->
+          <li><a href="#listado">Listado</a></li>
+          <li><a href="#mdesplegable">Menú desplegable</a></li>
+          <li><a href="#mtabs">Menú de pestañas</a></li>
+          <li><a href="#microalerta">Microalerta</a></li>
+<!--           <li><a href="#progreso">Progreso</a></li> -->
+        </ul>
+      </li>
+  </ul>
+</nav>
+
+<div class="col-md-10" role="main">
+
+<!-- Barra superior -->
+
+<div class="panel-docs">
+  <h2 class="h1">Barra superior</h2>
+  <p class="lead">Indicador de pantalla activa y funciones principales.</p>
+  <h3>Pantalla de inicio</h3>
+  <div>
+    <p>Con botón de menú lateral.</p>
+    <img src="img/apps_b1.png" />
+  </div>
+  <div>
+    <p>Sin menú lateral y con botón obligatorio de información de la aplicación. Usar sólo si la aplicación no tiene más pantallas que la de inicio.</p>
+    <img src="img/apps_b2.png" />
+  </div>
+  <div>
+    <p>Con menú de pestañas integrado.</p>
+    <img src="img/apps_d1.png" />
+  </div>
+  <h3>Sección</h3>
+  <div>
+    <p>Con botón de volver y nombre de sección.</p>
+    <img src="img/apps_h1.png" />
+  </div>
+  <div>
+    <p>Con botón de volver y funciones. Si el título es muy grande, la barra superior debe quedar sin texto y el título debe aparecer en el cuerpo de la pantalla.</p>
+    <img src="img/apps_h2.png" />
+  </div>
+</div>
+
+<!-- Controles -->
+
+<div class="panel-docs">
+<a id="controles" class="anchor"></a>
+  <h2 class="h1">Controles</h2>
+  <p class="lead">Alertas o pantallas que piden al usuario decidir funciones o brindar datos.</p>
+  <h3>Botón relleno</h3>
+  <div>
+    <p>Botón primario y estandar, dentro de grupos diferentes.</p>
+    <img src="img/apps_p3.png" />
+    <img src="img/apps_p2.png" />
+  </div>
+  <div>
+    <p>Botón institucional para funciones de único uso.</p>
+    <img src="img/apps_a3.png" />
+    <img src="img/apps_n4.png" />
+  </div>
+  <h3>Botón simple</h3>
+  <div>
+    <p>Botón apilable para una línea.</p>
+    <img src="img/apps_t1.png" />
+    <img src="img/apps_l2.png" />
+  </div>
+  <div>
+    <p>Botón no apilable para múltiples líneas.</p>
+    <img src="img/apps_h5.png" />
+  </div>
+  <h3>Selección binaria</h3>
+  <div>
+    <p>Checkbox para selección múltiple.</p>
+    <img src="img/apps_m2.png" />
+  </div>
+  <div>
+    <p>Radiobox para selección única.</p>
+    <img src="img/apps_m1.png" />
+  </div>
+  <div>
+    <p>Switch para activar o desactivar opciones.</p>
+    <img src="img/apps_e1.png" />
+  </div>
+  <h3>Delizador</h3>
+  <div>
+    <p>Indicador de valor numérico y rango entre 2 conceptos.</p>
+    <img src="img/apps_p1.png" />
+  </div>
+</div>
+
+<!-- Formulario -->
+
+<div class="panel-docs">
+<a id="formulario" class="anchor"></a>
+  <h2 class="h1">Formulario</h2>
+  <p class="lead">Pantallas con campos de texto y selección para cargar datos.</p>
+  <h3>Pantallas</h3>
+  <div>
+    <p>Registro o ingreso.</p>
+    <img src="img/apps_n4.png" />
+  </div>
+  <div>
+    <p>Formulario de uso frecuente.</p>
+    <img src="img/apps_n2.png" />
+    <img src="img/apps_n1.png" />
+  </div>
+  <h3>Estados de campos y validación</h3>
+  <div>
+    <p>Campo en uso con etiqueta desplazada y resto de los campos vacíos.</p>
+    <img src="img/apps_o1.png" />
+  </div>
+  <div>
+    <p>Campo con dato inválido y descripción del error.</p>
+    <img src="img/apps_o2.png" />
+  </div>
+  <div>
+    <p>Campo de texto de múltiples líneas con límite de caracteres.</p>
+    <img src="img/apps_o4.png" />
+  </div>
+</div>
+
+<!-- Fecha -->
+
+
+
+
+
+
+<!-- Listado -->
+
+<div class="panel-docs">
+<a id="listado" class="anchor"></a>
+  <h2 class="h1">Listado</h2>
+  <p class="lead">Grupo de vistas previas de entradas con varias formas de mostrar datos y funciones.</p>
+  <h3>Listado simple</h3>
+  <div>
+    <p>Sólo texto.</p>
+    <img src="img/apps_i3.png" />
+    <img src="img/apps_i1.png" />
+  </div>
+  <div>
+    <p>Texto e imagen.</p>
+    <img src="img/apps_i5.png" />
+    <img src="img/apps_i4.png" />
+  </div>
+  <div>
+    <p>Dentro de pantalla con otra información. No usa líneas divisorias.</p>
+    <img src="img/apps_i7.png" />
+    <img src="img/apps_i6.png" />
+  </div>
+  <div>
+    <p>Categorías desplegables.</p>
+    <img src="img/apps_s3.png" />
+    <img src="img/apps_s2.png" />
+  </div>
+  <h3>Grilla</h3>
+  <div>
+    <p>Miniaturas con imágen y título.</p>
+    <img src="img/apps_j3.png" />
+    <img src="img/apps_j2.png" />
+  </div>
+  <div>
+    <p>Íconos con pictograma y nombre de categoría.</p>
+    <img src="img/apps_j1.png" />
+  </div>
+  <h3>Tarjetas para múltiples funciones</h3>
+  <div>
+    <p>Vista previa detallada.</p>
+    <img src="img/apps_t2.png" />
+    <img src="img/apps_t1.png" />
+  </div>
+  <div>
+    <p>Contactos.</p>
+    <img src="img/apps_t4.png" />
+  </div>
+  <div>
+    <p>Grilla.</p>
+    <img src="img/apps_t3.png" />
+  </div>
+</div>
+
+<!-- Menú desplegable -->
+
+<div class="panel-docs">
+<a id="mdesplegable" class="anchor"></a>
+  <h2 class="h1">Menú desplegable</h2>
+  <p class="lead">Grupo de funciones accesible desde una misma pantalla desde un elemento temporario.</p>
+  <div>
+    <p>Dos grupos. El primero indica una selección múltiple o única.</p>
+    <img src="img/apps_k2.png" />
+    <img src="img/apps_k1.png" />
+  </div>
+  <div>
+    <p>Funciones de contacto con íconos.</p>
+    <img src="img/apps_k4.png" />
+    <img src="img/apps_k3.png" />
+  </div>
+</div>
+
+<!-- Menú de pestañas -->
+
+<div class="panel-docs">
+<a id="mtabs" class="anchor"></a>
+  <h2 class="h1">Menú de pestañas</h2>
+  <p class="lead">Agrupa las pantallas principales de la aplicación o grupos de datos principales de una sección.</p>
+  <div>
+    <p>Pantallas principales.</p>
+    <img src="img/apps_g1.png" />
+    <img src="img/apps_c1.png" />
+  </div>
+  <div>
+    <p>Menú con desplazamiento para cuando hay muchas secciones. Con espacio para flechas.</p>
+    <img src="img/apps_c3.png" />
+    <img src="img/apps_c2.png" />
+  </div>
+</div>
+
+<!-- Microalerta -->
+
+<div class="panel-docs">
+<a id="microalerta" class="anchor"></a>
+  <h2 class="h1">Microalerta</h2>
+  <p class="lead">Alertas con datos y funciones no críticas.</p>
+  <div>
+    <p>Alerta con función que remite al mensaje. A una o dos líneas.</p>
+    <img src="img/apps_r3.png" />
+    <img src="img/apps_r2.png" />
+  </div>
+</div>
+
+<!-- Progreso -->
+
+
+
+
+
+
+
+
+<!-- Next -->
+
+<div class="panel-docs">
+  <a class="btn btn-default btn-xl btn-block" href="patrones.html">Patrones</a>
+</div>
+
+</div> <!-- /container -->
+</div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank"></a>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="sub-brand">
+            <p>Dirección General de Gobierno Electrónico<br />
+            <span class="text-muted">Ministerio de Modernización</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="bastrap3/jquery.min.js"></script>
+<script src="bastrap3/bootstrap.min.js"></script>
+<script src="docs/docs.js"></script>
+
+</body>
+</html>

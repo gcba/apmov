@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="es" class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html lang="es" class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="es"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guías y herramientas para diseñar aplicaciones móviles del Gobierno de la Ciudad de Buenos Aires.">
+  <meta name="author" content="Gobierno de la Ciudad de Buenos Aires">
+  <title>Aplicaciones Móviles > Patrones</title>
+  <link rel="shortcut icon" href="bastrap3/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="bastrap3/favicon-mobile.png">
+  <link rel="stylesheet" href="bastrap3/bootstrap.min.css">
+  <link rel="stylesheet" href="bastrap3/bastrap.css">
+  <link rel="stylesheet" href="docs/docs.css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body role="document" data-spy="scroll" data-target="#affix-nav" class="bg-white-1">
+
+<a id="busqueda" class="anchor anchor-first"></a>
+
+<header class="navbar navbar-primary navbar-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <a class="navbar-brand bac-header" href="index.html"></a>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <h5 class="sub-brand">En todo estás vos</h5>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="jumbotron jumbotron-small jumbotron-misc jumbotron-main">
+
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+            <span class="sr-only">Cambiar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Aplicaciones Móviles</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="estilos.html">Estilos</a></li>
+            <li><a href="componentes.html">Componentes</a></li>
+            <li class="active"><a href="patrones.html">Patrones</a></li>
+            <li><a href="interaccion.html">Interacción</a></li>
+            <li><a href="descargas.html">Descargas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Patrones</h1>
+        <p class="lead">Uso y grupos de componentes.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="main-container" role="main">
+<div class="container">
+<div class="row">
+
+<nav class="sidebar col-md-2" role="sidebar">
+  <ul class="nav sidenav affix-top" id="affix-nav" data-spy="affix" data-offset-top="286">
+      <li><h4><a href="#busqueda">Componentes</a></h4>
+        <ul class="nav">
+          <li><a href="#busqueda">Búsqueda</a></li>
+<!--           <li><a href="#camara">Cámara</a></li> -->
+          <li><a href="#dialogo">Diálogo</a></li>
+          <li><a href="#detalle">Detalle de entrada</a></li>
+          <li><a href="#mapa">Mapa</a></li>
+          <li><a href="#mlateral">Menú lateral</a></li>
+<!--           <li><a href="#notificaciones">Notificaciones</a></li> -->
+<!--           <li><a href="#multimedia">Reproducción multimedia</a></li> -->
+<!--           <li><a href="#seleccionar">Seleccionar</a></li> -->
+        </ul>
+      </li>
+  </ul>
+</nav>
+
+<div class="col-md-10" role="main">
+
+<!-- Búsqueda -->
+
+<div class="panel-docs">
+  <h2 class="h1">Búsqueda</h2>
+  <p class="lead">Forma de filtrar listados de entradas.</p>
+  <h3>Principal</h3>
+  <div>
+    <p>Si se usa en la barra superior se realiza una búsqueda sobre todas las entradas de todas las secciones principales.</p>
+    <img src="img/apps_d1.png" />
+  </div>
+  <div>
+    <p>Al tocar el botón de búsqueda, se reemplaza el título por un texto que indica los conceptos más útiles para usar de filtro. También aparece un botón para volver [izquierda], y otro para borrar el texto de búsqueda para escribir uno nuevo [derecha].</p>
+    <img src="img/apps_d3.png" />
+    <img src="img/apps_d2.png" />
+  </div>
+  <h3>Sección</h3>
+  <div>
+    <p>La búsqueda dentro de una sección debe incluír un texto con conceptos para usar de filtro que tengan que ver únicamente con esa sección.</p>
+    <img src="img/apps_d5.png" />
+    <img src="img/apps_d4.png" />
+  </div>
+  <h3>Filtrado automático</h3>
+  <div>
+    <p>Mientras se escribe se filtra en tiempo real lo que se ve en el listado.</p>
+  </div>
+</div>
+
+<!-- Cámara -->
+
+<!-- Diálogo -->
+
+<div class="panel-docs">
+<a id="dialogo" class="anchor"></a>
+  <h2 class="h1">Diálogo</h2>
+  <p class="lead">Alerta o pantalla que pide al usuario decidir funciones o brindar datos.</p>
+  <h3>Alerta</h3>
+  <div>
+    <p>Mensaje único y decisión para avanzar o cancelar.</p>
+    <img src="img/apps_l1.png" />
+    <img src="img/apps_l2.png" />
+  </div>
+  <div>
+    <p>Selección de opciones de una función.</p>
+    <img src="img/apps_m1.png" />
+    <img src="img/apps_m2.png" />
+  </div>
+  <h3>Pantalla</h3>
+  <div>
+    <p>Selección de muchas opciones con descripciones largas.</p>
+    <img src="img/apps_m3.png" />
+  </div>
+  <div>
+    <p>Formulario de uso frecuente.</p>
+    <img src="img/apps_n2.png" />
+  </div>
+  <div>
+    <p>Final de una función.</p>
+    <img src="img/apps_q2.png" />
+    <img src="img/apps_q1.png" />
+  </div>
+</div>
+
+<!-- Detalle de entrada -->
+
+<div class="panel-docs">
+<a id="detalle" class="anchor"></a>
+  <h2 class="h1">Detalle de entrada</h2>
+  <p class="lead">Pantalla con datos y funciones de un elemento de una base de datos.</p>
+  <div>
+    <p>Detalle de producto con listado y función principal o descripción.</p>
+    <img src="img/apps_h4.png" />
+    <img src="img/apps_h3.png" />
+  </div>
+  <div>
+    <p>Detalle de establecimiento con listado de funciones y de entradas.</p>
+    <img src="img/apps_k3.png" />
+    <img src="img/apps_h5.png" />
+  </div>
+</div>
+
+<!-- Mapa -->
+
+<div class="panel-docs">
+<a id="detalle" class="anchor"></a>
+  <h2 class="h1">Mapa</h2>
+  <p class="lead">Listado de entradas accesible desde puntos en un plano.</p>
+  <div>
+    <p>Marcadores inactivos y marcador activo con datos y acceso a la entrada.</p>
+    <img src="img/apps_g2.png" />
+    <img src="img/apps_g1.png" />
+  </div>
+</div>
+
+<!-- Menú lateral -->
+
+<div class="panel-docs">
+<a id="mlateral" class="anchor"></a>
+  <h2 class="h1">Menú lateral</h2>
+  <p class="lead">Listado oculto de grupos de funciones.</p>
+  <div>
+    <p>Opciones de la aplicación, datos de usuario, funciones principales y secundarias.</p>
+    <img src="img/apps_e2.png" />
+    <img src="img/apps_e1.png" />
+  </div>
+</div>
+
+<!-- Notificaciones -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Next -->
+
+<div class="panel-docs">
+  <a class="btn btn-default btn-xl btn-block" href="interaccion.html">Interacción</a>
+</div>
+
+</div> <!-- /container -->
+</div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank"></a>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="sub-brand">
+            <p>Dirección General de Gobierno Electrónico<br />
+            <span class="text-muted">Ministerio de Modernización</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="bastrap3/jquery.min.js"></script>
+<script src="bastrap3/bootstrap.min.js"></script>
+<script src="docs/docs.js"></script>
+
+</body>
+</html>

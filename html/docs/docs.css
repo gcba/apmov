@@ -1,0 +1,174 @@
+/* misc */
+
+#main {
+  padding-top:60px;
+}
+.anchor {
+  padding-top: 45px;
+}
+.anchor-first {
+  padding:0;
+}
+
+/* navbar */
+
+.navbar-default.navbar-top {
+  min-height:80px;
+  margin-bottom:29px;
+}
+.navbar-default.navbar-top a {
+  padding-top:30px;
+  min-height:80px;
+}
+
+/* panels */
+
+.panel-docs,
+.panel-docs > div {
+  float:left;
+  width:100%;
+}
+.panel-docs {
+  margin:5px 0 60px 0;
+  padding-bottom:20px;
+  border-bottom:solid 1px #ccc;
+}
+.panel-docs:last-child {
+  border:0 none;
+}
+.panel-docs > div {
+  margin:5px 0 30px 0;
+}
+.panel-docs h2 {
+  margin-top:0;
+}
+.panel-docs h3 {
+  margin:0 0 30px 0;
+}
+.panel-docs p {
+  width:30%;
+  float:left;
+}
+.panel-docs p.lead {
+  margin-bottom:50px;
+  width:100%;
+}
+.panel-docs img {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  width:30%;
+  float:right;
+  margin:0 0 25px 30px;
+}
+@media (max-width: 767px) {
+  .panel-docs > div {
+    text-align:center;
+  }
+  .panel-docs p {
+    width:100%;
+    text-align:left;
+    margin-bottom:15px;
+  }
+  .panel-docs img {
+    width:80%;
+    float:none;
+    margin-left:0;
+  }
+}
+
+/* colores */
+
+.docs-colores span {
+  color: #fff;
+  text-align:center;
+  margin:0 20px 5px 0;
+  width:120px;
+  height:120px;
+  border-radius:8px;
+  padding:30px 5px 0 5px;
+  display:block;
+  float:left;
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.docs-colores p {
+  width:100%;
+  float:none;
+}
+
+/* sidebar */
+
+.sidebar h4 a {
+  color:#333;
+}
+.sidebar .nav > li > a,
+.sidebar .nav .nav > li > a {
+  padding: 5px 5px 5px 0;
+
+}
+
+/* jumbotron home */
+
+.jumbotron-home {
+  background-image:url(../docs/home.jpg);
+  -ms-behavior: url(bastrap3/backgroundsize.min.htc);
+}
+.jumbotron-misc {
+  background-image:url(../docs/misc.jpg);
+  -ms-behavior: url(bastrap3/backgroundsize.min.htc);
+}
+
+/* IE polyfill uri fix */
+
+.btn-group-xl > .btn, .btn-xl,
+.badge,
+.navbar,
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pager li > a,
+.pager li > span,
+.label,
+.media img,
+.carousel,
+.carousel-inner,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img,
+.jumbotron > .carousel .carousel-inner,
+.shortcut,
+.shortcut span,
+.panel,
+.list-grou,
+.list-group-panel-body .list-group-item:first-child,
+.list-thumb > div,
+.list-group-content,
+.list-group-content .list-group-item,
+.list-group-full .list-group-item,
+.alert-spot,
+.panel-group .panel-heading + .panel-collapse .panel-body,
+.panel-group .panel + .panel,
+#accordion,
+#accordion .panel:first-child,
+#accordion .panel-heading {
+  -ms-behavior: url(bastrap3/pie.htc);
+}
+.bac-header,
+.bac-footer,
+.bavos-footer,
+.ba-btn,
+.jumbotron,
+.list-heading-img,
+.list-thumb > div,
+.list-img {
+  -ms-behavior: url(bastrap3/backgroundsize.min.htc);
+}
+
+
+
+
+
+
+
