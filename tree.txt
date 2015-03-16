@@ -38,6 +38,7 @@ Interacción
 	Reacción [feedback]
 	Registro y login
 	Splash
+	Tamaños de pantalla [ejemplos de diferentes resoluciones]
 
 Descargas
 	Ejemplos de flujos
@@ -45,3 +46,37 @@ Descargas
 	Pantallas
 
 Glosario
+
+-----------------------------
+
+https://visualhierarchy.co/shop/vonn-material-design-mobile-ui-kit/
+https://visualhierarchy.co/shop/ace-ios8-mobile-ui-kit/
+
+ojo con los links botones grises que no parezcan disabled
+todo en cajas y máscaras
+versión ios
+versión web app
+
+ver data sets
+tablas
+audio y video player
+
+app expertnet contactos
+grupos social media
+listado social
+foto social
+chat?
+
+foto con overlay oscuro y párrafo encima
+listados horizontales con slide
+
+listados más juntos en alto
+listado fotos versión foto un poco más grande
+títulos grandes
+menos dividers
+cards más padding
+íconos en tabs
++ en action bar
+
+
+
