@@ -3,49 +3,53 @@ Estilo
 	Íconos
 	Imágenes
 	Tipografía
+		Tipo de aplicación [web, android, ios, con ejemplos] <<<<<< FALTA
 
 Componentes
 	Barra superior
 	Controles [botón, switch, slider]
 	Formulario
-	Fecha <<<<<< FALTA
+		Fecha <<<<<< FALTA
 	Grilla
-	Listado
+	Listado [todo tipo + vacío]
 	Menú desplegable
-	Menú de pestañas
 	Microalerta [snackbar]
-	Progreso <<<<<< FALTA
+		Progreso <<<<<< FALTA
 
 Patrones [poner qué componentes se usa para cada solución]
 	Búsqueda
-	Cámara <<<<<< FALTA
+		Cámara <<<<<< FALTA
 	Diálogos [alertas, pantallas]
 	Detalle de entrada
 	Mapa
 	Menú lateral
 	Notificaciones
-	Reproducción multimedia [audio, video, galeria fotos] <<<<<< FALTA
-	Seleccionar [hold, y usar el área más grande posible] <<<<<< FALTA
+		Reproducción multimedia [audio, video, galeria fotos] <<<<<< FALTA
+		Seleccionar [hold, y usar el área más grande posible] <<<<<< FALTA
 
 Interacción
-	Acerca de
 	Animación [continuidad]
-	Circuitos combinables [a una entrada llego desde su listado o desde su mención]
+	Circuitos [a una entrada llego desde su listado o desde su mención]
 	Compartir [incluír mensajes]
 	Favoritos [guardar lo que hay que anotar]
-	Mensajes [breves y directos, no ambiguos]
 	Opciones
-	Reacción [feedback]
+	Pantallas obligatorias [acerca de, bienvenido, splash]
+	Redacción [breves y directos, no ambiguos]
 	Registro y login
-	Splash
-	Tamaños de pantalla [ejemplos de diferentes resoluciones]
+	Respuesta [feedback]
+		Tamaños de pantalla [ejemplos de diferentes resoluciones] <<<<<< FALTA
 
 Descargas
 	Ejemplos de flujos
 	Íconos
 	Pantallas
+	Tipografía <<<<<< FALTA open sans, gotham, helvetica neue?
 
 Glosario
+
+
+
+
 
 -----------------------------
 
