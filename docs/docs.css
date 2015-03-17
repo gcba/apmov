@@ -9,6 +9,9 @@
 .anchor-first {
   padding:0;
 }
+.jumbotron p.lead a {
+  color:#fff;
+}
 
 /* navbar */
 
