@@ -87,7 +87,7 @@
         <ul class="nav">
           <li><a href="#ejemplos">Ejemplos</a></li>
           <li><a href="#etapas">Etapas</a></li>
-          <li><a href="#practicas">Prácticas de diseño</a></li>
+          <li><a href="#errores">Errores de diseño</a></li>
         </ul>
       </li>
   </ul>
@@ -124,6 +124,7 @@
 <!-- Etapas -->
 
 <div class="panel-docs">
+<a id="etapas" class="anchor"></a>
   <h2 class="h1">Etapas</h2>
   <p class="lead">Procedimiento completo a seguir para poder desarrollar y publicar una aplicación para GCBA.</p>
   <h3>1. Presentar definición funcional</h3>
@@ -157,31 +158,137 @@
   </div>
 </div>
 
-<!-- Prácticas -->
+<!-- Errores -->
 
 <div class="panel-docs">
-  <h2 class="h1">Prácticas de diseño</h2>
-  <p class="lead">Lo que se debe hacer, y los errores comunes a evitar.</p>
+<a id="errores" class="anchor"></a>
+  <h2 class="h1">Errores de diseño</h2>
+  <p class="lead">Malas prácticas que reducen la usabilidad de la aplicación y cómo solucionarlas.</p>
 
-  <p>Próximamente</p>
-<!-- 
+  <h3>Barra superior</h3>
+  <div>
+    <p>Botón con función diferente a menú a la izquierda.</p>
+    <img src="img/screens-no/b3-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Botón con función diferente a menú a la derecha.</p>
+    <img src="img/screens/b2.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+  <div>
+    <p>Botón con menú lateral a la izquierda.</p>
+    <img src="img/screens/b1.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
   <h3>Pantalla de inicio</h3>
   <div>
-    <p>Con botón de menú lateral.</p>
-    <img src="img/screens/b1.png" />
+    <p>Botonera inicial, sin información directa  al abrir la aplicación.</p>
+    <img src="img/screens-no/c4-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
   </div>
   <div>
-    <p>Sin menú lateral y con botón obligatorio de información de la aplicación. Usar sólo si la aplicación no tiene más pantallas que la de inicio.</p>
-    <img src="img/screens/b2.png" />
+    <p>Sección de mayor uso accesible al abrir la aplicación, y acceso otras funciones importantes a través de pestañas.</p>
+    <img src="img/screens/d1.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
   </div>
 
- -->
+  <h3>Pestañas</h3>
+  <div>
+    <p>Funciones secundarias o sin relación.</p>
+    <img src="img/screens-no/c5-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Funciones relacionadas con una misma actividad.</p>
+    <img src="img/screens/c2.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
+  <h3>Buscador</h3>
+  <div>
+    <p>Por encima de pestañas pero buscando sólo dentro de una de ellas.</p>
+    <img src="img/screens-no/d6-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Por encima de pestañas y buscando sobre todas.</p>
+    <img src="img/screens/d2.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+  <div>
+    <p>Dentro de una pestaña pero buscando sobre todas.</p>
+    <img src="img/screens-no/d7-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Dentro de una pestaña y buscando sólo sobre la misma.</p>
+    <img src="img/screens/d4.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
+  <h3>Mapa</h3>
+  <div>
+    <p>Detalle de lugar dentro de un desplegable.</p>
+    <img src="img/screens-no/g3-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Detalle de lugar en panel inferior.</p>
+    <img src="img/screens/g2.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
+  <h3>Diálogo alerta</h3>
+  <div>
+    <p>Botones con nombres ambiguos y que no te explican exactamente la acción a realizar.</p>
+    <img src="img/screens-no/l4-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Botones que explican exactamente la acción a realizar.</p>
+    <img src="img/screens/l1.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+  <div>
+    <p>Botón de cancelar a la derecha.</p>
+    <img src="img/screens-no/l3-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Botón de cancelar a la izquierda.</p>
+    <img src="img/screens/l2.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
+  <h3>Formularios</h3>
+  <div>
+    <p>Label y placeholder visibles al mismo tiempo.</p>
+    <img src="img/screens-no/o5-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Label visible sólo cuando el campo está completo.</p>
+    <img src="img/screens/o1.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
+  <h3>Botones</h3>
+  <div>
+    <p>Más de un botón de color por pantalla, y botón de guardar en el cuerpo de la misma.</p>
+    <img src="img/screens-no/p4-no.png" />
+    <span class="label label-danger label-dos">Mal <span class="glyphicon glyphicon-remove"></span></span>
+  </div>
+  <div>
+    <p>Sólo 1 botón de color por pantalla, y botón de guardar en barra superior a la derecha.</p>
+    <img src="img/screens/p3.png" />
+    <span class="label label-success label-dos">Bien <span class="glyphicon glyphicon-ok"></span></span>
+  </div>
+
 
 
 </div>
-
-
-
 
 
 
