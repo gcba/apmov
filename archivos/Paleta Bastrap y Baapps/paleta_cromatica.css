@@ -1,0 +1,152 @@
+/*//////// PALETA BASTRAP y BAAPPS 2017 ////////*/
+
+/* Colores claros */
+
+.unoClaro {
+	background: #e76056;
+}
+
+.dosClaro {
+	background: #f3a32d;
+}
+
+.tresClaro {
+	background: #fcda59;
+}
+
+.cuatroClaro {
+	background: #2ebc98;
+}
+
+.cincoClaro {
+	background: #99c25f;
+}
+
+.seisClaro {
+	background: #2ebc98;
+}
+
+.sieteClaro {
+	background: #19c3e3;
+}
+
+.ochoClaro {
+	background: #0389d1;
+}
+
+.nueveClaro {
+	background: #3e4f5e;
+}
+
+.diezClaro {
+	background: #9d6db6;
+}
+
+.onceClaro {
+	background: #f562a2;
+}
+
+/* Colores oscuros */
+
+.unoOscuro {
+	background: #e74c3c;
+}
+
+.dosOscuro {
+	background: #f39c12;
+}
+
+.tresOscuro {
+	background: #fdd306;
+}
+
+.cuatroOscuro {
+	background: #18b596;
+}
+
+.cincoOscuro {
+	background: #88bf48;
+}
+
+.seisOscuro {
+	background: #18b596;
+}
+
+.sieteOscuro {
+	background: #00b3e3;
+}
+
+.ochoOscuro {
+	background: #037dbf;
+}
+
+.nueveOscuro {
+	background: #34485e;
+}
+
+.diezOscuro {
+	background: #9b59b6;
+}
+
+.onceOscuro {
+	background: #f54789;
+}
+
+
+
+/* Grises */
+
+.unoGris {
+    background: #1d1c1a;
+}
+
+.dosGris {
+    background: #333;
+}
+
+.tresGris {
+    background: #717170;
+}
+
+.cuatroGris {
+    background: #a6a4a4;
+}
+
+.cincoGris {
+    background: #c5c3c2;
+}
+
+.seisGris {
+    background: #e5e5e5;
+}
+
+.sieteGris {
+    background: #f3f0ed;
+}
+
+.ochoGris {
+    background: #f5f5f5;
+}
+
+
+
+/* iOS */
+
+.rojoios {
+    background: #ff3b30;
+}
+
+.azulios {
+    background: #007aff;
+}
+
+
+/* Android */
+
+.rojoandroid {
+    background: #F44336;
+}
+
+.verdeandroid {
+    background: #009688;
+}
